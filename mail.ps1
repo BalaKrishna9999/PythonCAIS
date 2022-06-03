@@ -37,3 +37,4 @@ $body = "
 
 "
 Send-MailMessage -From $username -to $email  -Subject $subject -SmtpServer "smtp.gmail.com" -Port 587 -body $body -UseSsl -Credential $credentials
+write-host "Must be aware before clone my code"
